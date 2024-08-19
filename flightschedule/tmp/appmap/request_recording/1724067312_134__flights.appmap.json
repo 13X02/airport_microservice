@@ -1,0 +1,171 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "content-length": "1",
+          "sec-fetch-site": "none",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "jenkins-timestamper-offset=-19800000",
+          "origin": "chrome-extension://amknoiejhlmhancpahfcfcfhllgkpbld",
+          "accept": "*/*",
+          "authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJKb2huIiwiaWF0IjoxNzIxOTg3MzUxLCJleHAiOjE3MjE5ODkxNTF9.APbT4ld7fNxpTxuA0lOeaTDN_NxeBSP1Yu8z33j4UM0",
+          "host": "localhost:8091",
+          "connection": "keep-alive",
+          "content-type": "application/json",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/flights",
+        "path_info": "/flights",
+        "protocol": "HTTP/1.1",
+        "request_method": "POST"
+      },
+      "id": 1,
+      "message": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "from",
+          "object_id": 1034144777,
+          "value": "tvm"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "to",
+          "object_id": 966545253,
+          "value": "tvm"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "time",
+          "object_id": 2090780210,
+          "value": "7pm"
+        }
+      ],
+      "thread_id": 37
+    },
+    {
+      "defined_class": "com.example.flightschedule.FlightscheduleApplication",
+      "event": "call",
+      "id": 2,
+      "lineno": 22,
+      "method_id": "postFlight",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "from",
+          "object_id": 1034144777,
+          "value": "tvm"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "to",
+          "object_id": 966545253,
+          "value": "tvm"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "time",
+          "object_id": 2090780210,
+          "value": "7pm"
+        }
+      ],
+      "path": "com/example/flightschedule/FlightscheduleApplication.java",
+      "receiver": {
+        "class": "com.example.flightschedule.FlightscheduleApplication$$SpringCGLIB$$0",
+        "object_id": 1287303288,
+        "value": "com.example.flightschedule.FlightscheduleApplication$$SpringCGLIB$$0@4cbab078"
+      },
+      "static": false,
+      "thread_id": 37
+    },
+    {
+      "elapsed": 0.00010004,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "thread_id": 37
+    },
+    {
+      "elapsed": 0.00050936,
+      "event": "return",
+      "http_server_response": {
+        "headers": {},
+        "status": 200
+      },
+      "id": 4,
+      "parent_id": 1,
+      "thread_id": 37
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "POST /flights (200) - 17:05:12.134",
+    "app": "flightschedule",
+    "language": {
+      "name": "java",
+      "version": "21.0.4+7-LTS",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "request_recording",
+      "type": "requests"
+    },
+    "recording": {}
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "postFlight",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/example/flightschedule/FlightscheduleApplication.java:22"
+                    }
+                  ],
+                  "name": "FlightscheduleApplication",
+                  "type": "class"
+                }
+              ],
+              "name": "flightschedule",
+              "type": "package"
+            }
+          ],
+          "name": "example",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "POST /flights"
+        }
+      ]
+    }
+  ]
+}

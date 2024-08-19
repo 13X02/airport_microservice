@@ -1,0 +1,12 @@
+[
+  {
+    "route": "POST /error",
+    "parameters": "(from,to)",
+    "status": 400
+  },
+  {
+    "route": "POST /flights",
+    "parameters": "(from,to)",
+    "status": 400
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "postFlight",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/example/flightschedule/FlightscheduleApplication.java:22"
+                  }
+                ],
+                "name": "FlightscheduleApplication",
+                "type": "class"
+              }
+            ],
+            "name": "flightschedule",
+            "type": "package"
+          }
+        ],
+        "name": "example",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "POST /flights"
+      }
+    ]
+  }
+]

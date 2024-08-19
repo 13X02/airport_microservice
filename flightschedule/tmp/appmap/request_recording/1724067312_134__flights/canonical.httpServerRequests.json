@@ -1,0 +1,7 @@
+[
+  {
+    "route": "POST /flights",
+    "parameters": "(from,to,time)",
+    "status": 200
+  }
+]

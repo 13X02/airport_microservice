@@ -1,0 +1,6 @@
+[
+  {
+    "caller": "POST /flights",
+    "callee": "com/example"
+  }
+]
